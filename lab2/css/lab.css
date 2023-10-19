@@ -1,5 +1,18 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
-
+body {
+  background-color: #f92e72;
+}
+h1 {
+  border: dotted;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 100%;
+  color: rgb(255, 122, 237);
+}
+p {
+  text-indent: 5%;
+  font-family: sans-serif;
+}
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
     padding: 10px;

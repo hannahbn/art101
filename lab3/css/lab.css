@@ -7,3 +7,19 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+  #html-pic {
+    width: 700px;
+  }
+  #html1-pic {
+    width: 700px;
+  }
+  #website-list {
+    width: 700px;
+  }
+  #website-photo {
+    width: 700px;
+  }
+
+  #content {
+    background-image: none;
+  }
