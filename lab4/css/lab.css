@@ -7,3 +7,10 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+  #content {
+    background: none;
+  }
+  #banan {
+    width: 400px;
+  }
+  
