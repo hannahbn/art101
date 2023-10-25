@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Using Pseudocode to write steps for banana bread and beer pong
+// Author: Hannah Nielsen (hanielse@ucsc.edu)
+// Date: 10/20/23
 
 // Constants
 

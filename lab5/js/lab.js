@@ -1,6 +1,23 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Data Types and Variables
+// Author: Hannah Nielsen
+// Date: 10/25/23
+
+//Define Variables
+var make = "BMW";
+var model = "325i";
+var color = "black";
+var year = "2005";
+
+//Calculate
+age = 2023-year;
+
+
+//Output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + "<br>");
 
 // Constants
 
