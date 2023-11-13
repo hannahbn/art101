@@ -13,7 +13,7 @@ function caseSensitive(stringA,_string ) {
     //credit to Wes Modes ART101 lab 7 canvas page and Percilla for helping us!
     function sortingUserName(){
     //creating a variable to get user input
-    var userName = window.prompt ("hello world. what is your name?");
+    var userName = window.prompt ("Give me your name.");
     console. log ("userName = ", userName);
     //splitting string into array
     var nameArray = userName.split('');
