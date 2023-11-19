@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 9 - Libraries and jQuery</title>
+	<title>Lab 11 - JavaScript Events and Forms</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -17,39 +17,43 @@
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+	<script type="text/javascript" src="js/lab.js" DEFER></script>
 
-	<title>Lab 9</title>
+	<title>Lab 11</title>
    
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 9 - Libraries and jQuery</h1>
+			<h1>Lab 11 - JavaScript Events and Forms</h1>
 			<div class="challenge-section">
 					<h2>Challenge</h2>
-					<p>The challenge in this assignment was to add buttons and then add an event listener to toggle the class special. </p>
+					<p>The challenge of this lab was to create an input field for your name to sort the letters. </p>
 			</div>
 
 			<div class="problems-section">
 					<h2>Problems</h2>
-					<p>Problems I had were just small things like not adding a #. I solved most of these by asking ChatGPT and it worked out great since
-						I feel like I was really able to realize what was wrong and fix it.   </p>
+					<p>We got stuck for a while with making our JavaScript work but using ChatGpT we figured out that we had some minor errors
+						that ChatGPT was able to solve for us.    </p>
 			</div>
 
 			<div class="reflection-section">
 					<h2>Reflection</h2>
-					<p>Overall, the lab went well even though I was stumped over a few small errors.  </p>
+					<p>This lab wasn't too difficult. It was a bit more challenging than the last one but it was also fun. It was cool to see my name sorted. </p>
 			</div>
 
 			<div class="results-section">
 					<h2>Results:</h2>
-                    <p>Click the button and find out!</p>
-					<div id="output"></div>
+                    <p>Enter your name and click the button to find out!</p>	
 			</div>
+			
+			<input  type="text" id="user-name" placeholder="Input your name">
+			<div id="output"></div>
+			<button id="submit">Submit</button>
         </section>
 		<nav id="links">
+
 			<!-- Put links to other pages (including the homepage) here. -->
 		</nav>
 		

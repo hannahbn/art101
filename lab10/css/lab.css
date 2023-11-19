@@ -1,0 +1,14 @@
+.text p {
+    display: inline-block;
+    max-width: 60%;
+    margin: 3px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: rgb(242, 62, 62);
+    color: white;
+    font-family: sans-serif;
+}
+
+#content {
+    background: pink
+}
