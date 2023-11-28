@@ -1,4 +1,4 @@
-// index.js - Conditionals
+// index.js - loops
 // Author: Hannah Nielsen
 // Date: 11/22/23
 

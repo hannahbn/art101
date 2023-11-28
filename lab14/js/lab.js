@@ -2,7 +2,7 @@
 // Author: Hannah Nielsen
 // Date: 11/1/23
 
-// Making a function to sort string alphabetically while ignoring caps
+//Making a function to sort string alphabetically while ignoring caps
 // Creating a function to compare the strings and sort them alphabetically regardless of case
 // Credit to Stack Overflow - How Do You Sort Letters in JavaScript with Capital & Lowercase Letters Combined?
 function caseSensitive(stringA, stringB) {
