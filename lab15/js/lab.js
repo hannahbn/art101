@@ -22,7 +22,7 @@ $(document).ready(function() {
             },
             error: function(xhr, status, error) {
                 console.log("Error fetching data:", status, error);
-                $("#output").text("Error fetching data");
+                $("#output").text("Error fetching data")
             }
         });
     });
