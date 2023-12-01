@@ -21,46 +21,118 @@
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
-		<section>
-			<h1>Dietary Restrictions</h1>
-			<p>Do you have any dietary restrictions / preferences? </p>
+			<section>
+				<div class="header">
+					<h1>Cooking Club!</h1>
+					<p>Lets sort out some basic information so we can get sorted!</p>
+				</div>
 
-		<div id="diet">
-			<label><input type="checkbox" id="vegan" name="vegan">Vegan</label>
+				<div class="minor-section">
+					<h2>What time of day is it?</h2>
+					<!-- Insert any additional dietary restrictions here -->
+					<div id="diet">
+						<div class="checkbox-container">
+							<div class="syrup-section">
+								<img id="syrup" src="img/syrup.jpg" alt="syrup bottle decal"><br>
+							</div>
 
-			<label><input type="checkbox" id="halal" name="halal">Halal</label>
-			
-			<label><input type="checkbox" id="pescatarian" name="pescatarian">Pescatarian</label>
-			
-			<label><input type="checkbox" id="vegetarian" name="vegetarian">Vegetarian</label>
+							<label>
+							<input type="checkbox" name="breakfast"> Breakfast
+							</label>
 
-			<label><input type="checkbox" id="gluten free" name="gluten free">Gluten free</label>
-			
-			<label><input type="checkbox" id="dairy free" name="dairy free">Dairy free</label>
+							<label>
+							<input type="checkbox" name="lunch"> Lunch
+							</label>
+
+							<label>
+							<input type="checkbox" name="dinner"> Dinner
+							</label>
+						</div>
+					</div>
+				</div>
+
+		<br><div class="minor-section">
+				<h2>Any dietary restrictions or allergens?</h2>
+				<!-- Insert any additional dietary restrictions here -->
+				<div id="diet">
+
+					<div class="checkbox-container">
+						<div class="decals-section">
+							<img id="decals" src="img/bread.jpg" alt="loaf of bread decal"><br>
+						</div>
+
+						<label>
+							<input type="checkbox" name="halal"> Halal
+						</label>
+						
+						<label>
+							<input type="checkbox" name="vegan"> Vegan
+						</label>
+
+						<label>
+							<input type="checkbox" name="vegetarian"> Vegetarian
+						</label>
+
+						<label>
+							<input type="checkbox" name="Pescatarian"> Pescatarian
+						</label>
+
+						<label>
+							<input type="checkbox" name="dairy-free"> Dairy-Free
+						</label>
+
+						<label>
+							<input type="checkbox" name="gluten-free"> Gluten-Free
+						</label>
+
+						<label>
+							<input type="checkbox" name="nut-free"> Nut-Free
+						</label>
+
+
+
+
+					</div>
+				</div>
+			</div>
+		
+		<br><div class="minor-section">
+					<h2>How much time do you have?</h2>
+
+				<!-- Time intervals go here -->
+				<div id="time">
+					<div class="checkbox-container">
+						<div class="decals-section">
+							<img id="decals" src="img/steak.jpg" alt="steak decal"><br>
+						</div>
+
+						<label>
+						<input type="checkbox" name="fifteen"> 15-30 minutes
+						</label>
+
+						<label>
+						<input type="checkbox" name="thirty"> 30-45 minutes
+						</label>
+
+						<label>
+							<input type="checkbox" name="fourtyfive"> 45-60 minutes
+						</label>
+						<label>
+							<input type="checkbox" name="hour"> 1 hour +
+						</label>
+					</div>
+				</div>	
+			</div>
+
+							
+			<div class="button-section">
+				<div class="Navigation">
+						<button id="next">Ready to Cook?</button>
+				</div>
+			</div>
 		</div>
-
-		<div id="time">
-			<h1>Time</h1>
-			<p>How much time do you have?</p>
-			<label><input type="checkbox" id="fifteen" name="fifteen">15-30 minutes</label>
-
-			<label><input type="checkbox" id="thirty" name="thirty">30-45 minutes</label>
-
-			<label><input type="checkbox" id="fourtyfive" name="fourtyfive">45-60 minutes</label>
-
-			<label><input type="checkbox" id="hour" name="hour">1 hour or more...</label>
-		</div>
-			
-			<div id="output"></div>
-			<button id="submit">Ready!</button>
-
-	<!-- Navigation Buttons -->	
-			<a href="../Page 1 Project Homepage/index.html">Back</a>
-			<a href="../Page 3 Recipe Checkpoints/index.html">Next!</a>
-
-			
-        </section>
-		</nav>	
-	</main>  
+	</section>
+</nav>	
+</main>  
 </body>
 </html>

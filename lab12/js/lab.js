@@ -2,6 +2,7 @@
 // Author: Hannah Nielsen
 // Date: 11/22/23
 
+//Thank you ChatGPT!
 // Sorting Hat function
 function sortingHat(str) {
   var length = str.length;
