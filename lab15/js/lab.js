@@ -1,6 +1,6 @@
-// index.js - Functions
+// index.js - AJAX
 // Author: Hannah Nielsen
-// Date: 11/1/23
+// Date: 12/3/23
 
 // jQuery code to handle button click and make AJAX call
 $(document).ready(function() {
