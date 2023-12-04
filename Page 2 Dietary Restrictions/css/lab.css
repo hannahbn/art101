@@ -71,6 +71,11 @@ h1 {
   margin-left:175px;
   margin-right:175px;
   margin-bottom: 30px;
+  display: none;
+}
+
+#recipeResult.show {
+  display: block;
 }
 
 #recipeResult h2 {
